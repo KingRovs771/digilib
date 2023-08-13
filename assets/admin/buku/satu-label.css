@@ -1,0 +1,56 @@
+@page {
+    /* size: auto; */
+    size: 340px 136px;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 9px;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#barcode,
+#label {
+    color: #fff;
+}
+
+#barcode {
+    border-right: 0.1rem solid #fff;
+}
+
+#label {
+    border-left: 0.1rem solid #fff;
+}
+
+.header {
+    background-color: #00783C;
+}
+
+#barcode h2 {
+    margin-bottom: -2px;
+    font-weight: 700;
+}
+
+#qr-code {
+    width: 60px;
+}
+
+#label h2,
+#label h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#label h2 {
+    margin-bottom: -1px;
+}
+
+.label-body p {
+    line-height: 7px;
+}

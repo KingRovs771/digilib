@@ -1,0 +1,1 @@
+<?php isset($main) ? $this->load->view($main) : ''; ?>
